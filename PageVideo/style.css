@@ -81,7 +81,7 @@
   top: 0;
 
   opacity: 0;
-  
+
   /* Esconder a função do botão , quando ele não aparecer. */
   visibility: hidden;
 }
@@ -105,6 +105,7 @@
 
 .modal-overlay.active{
   opacity: 1;
+  visibility: visible;
 }
 
 :root {
