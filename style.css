@@ -1,18 +1,12 @@
-*{
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-
-body{
-  background-color: #282a36;
-  font-family: 'Roboto', sans-serif;
-}
 
 .header{
   padding: 32px;
-  background-color: rgba(0,0,0,0.2);
+  background-color: #282a36;
   border: 2px solid #333333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
 }
 
 .header a {
@@ -33,10 +27,57 @@ header div a:hover{
   color: var(--grena);
   transition: 0.2s;
 }
+ header div img{
+   width: 50px;
+   height: 50px;
+
+ }
+ 
+ #wrapper{
+  border-radius: 5px;
+  border: 5px solid var(--grena);
+  display: flex;
+  flex-direction: column;
+  
+   width:80%;
+   height: auto;
+
+   /* Deixar o conteúdo ao meio */
+   margin:0 auto;
+
+ }
+
+ #wrapper span{
+   background-color: var(--amarelo);
+   text-align: left;
+   width: 100px;
+ }
+ #wrapper img {
+  width:100%;
+   height: auto;
+   text-align: center;
+   align-items: center;
+ }
+
+ #wrapper h1{
+   color: var(--branco);
+   font-size: 30px;
+   margin: 15px;
+  }
+
+  #wrapper p{
+    margin: 15px;
+    color: var(--branco);
+    margin-top: 15px;
+    margin-bottom:10px;
+    
+    opacity: 0.7;
+   }
 
 
 :root {
   --grena:#581822;
   --azul: #012596;
   --amarelo: #deb500;
+  --branco:#ffff
 }
