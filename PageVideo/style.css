@@ -59,10 +59,53 @@
   padding: 5px 20px;
   border-radius: 25px;
   margin-left: 20px;
+
+  display: flex;
+  align-items: center;
+  
   
 
 }
 
+.likes p {
+  margin-left: 15px;
+}
+
+/* MODAL */
+
+.modal-overlay{
+  background-color: rgba(0,0,0,0.7);
+  width:100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+
+  opacity: 0;
+  
+  /* Esconder a função do botão , quando ele não aparecer. */
+  visibility: hidden;
+}
+
+.modal{
+  background-color: var(--branco);
+  width: 90%;
+  height: 90%;
+  margin: 5vh auto;
+  position: relative;
+}
+
+.modal .close-modal{
+  color: var(--azul);
+  /* Ele se torna absoluto dentro do quadrante branco pq há um position relative no pai */
+  position: absolute;
+  right: 8px;
+  top:8px;
+  cursor: pointer;
+}
+
+.modal-overlay.active{
+  opacity: 1;
+}
 
 :root {
   --grena:#581822;
