@@ -1,25 +1,19 @@
 <h1 align="center">
-    <img alt="Discord" title="Interface do Discord com ReactJS" src="./assets/banner.png" />
+    <img alt="Meu Barça" title="#meuBarça" src="./assets/banner.png" />
 </h1>
 
 <h4 align="center"> 
-	Interface do Discord com ReactJS
+	Meu Barça!
 </h4>
 
 <p align="center">
 	
 ## 💻 Sobre o Projeto
-Neste projeto em React.JS clonamos a interface do Discord.
+Esse projeto tem como objetivo treinar as habilidades desenvolvidas no curso LaunchBase. 
+O Projeto também teve funcionalidades baseadas no site [MEU TIMÃO](https://www.meutimao.com.br/)
 
-#### A aplicação foi criada seguindo a videoaula [Recriando a Interface do Discord com ReactJS | UI Clone #5](https://www.youtube.com/watch?v=x4FdZd2-_uU) disponíbilizada pela Rocketseat.
+#### A aplicação foi criada seguindo a videoaula  disponíbilizada pela Rocketseat.
   
-## 🎨 Layout
-
-O layout da aplicação está disponível no Figma:
-
-<a href="https://www.figma.com/file/Mnr08FcriAibSOheL0XvrY/Discord-Clone?node-id=0%3A1">
-  <img alt="Made by Rafael Ramires" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
-</a>
 
 ## 🛠 Tecnologias
 Abaixo segue o que foi utilizado na criação deste projeto:
